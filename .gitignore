@@ -6,3 +6,5 @@
 bin/*
 Configurations/*
 *.class
+/.gradle/
+/bin/

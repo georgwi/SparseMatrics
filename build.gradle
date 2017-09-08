@@ -9,6 +9,15 @@ repositories {
     }
 }
 
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+        }
+    }
+}
+
+
 dependencies {
     compile group: 'org.ejml', name: 'dense64', version: '0.30'
     compile group: 'net.sf.trove4j', name: 'trove4j', version: '3.0.3'

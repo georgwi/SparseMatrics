@@ -1,4 +1,4 @@
-package us.ihmc.sparseMatrices;
+package us.ihmc.sparseMatrices.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -15,6 +15,9 @@ import org.ejml.factory.LinearSolverFactory;
 import org.ejml.interfaces.linsol.LinearSolver;
 import org.ejml.ops.CommonOps;
 import org.junit.Test;
+
+import us.ihmc.sparseMatrices.SparseMatrix;
+import us.ihmc.sparseMatrices.SparseMatrixInverter;
 
 public class SparseMatrixTest
 {
@@ -331,7 +334,7 @@ public class SparseMatrixTest
    {
       Random random = new Random(492911L);
 
-      int matrixSize = 200;
+      int matrixSize = 100;
       int iterations = 500;
       int blocks = 5;
 
